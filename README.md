@@ -26,7 +26,7 @@ There are some additional analyses using topic models that require extra package
 # Reproducing our Results
 The `scripts` folder contains all analysis notebooks for reproucing results. The bulk of this is in `CogSciHumanStudy.ipynb`, which has code for correlations, significance tests, linguistic analysis, and graphs. `RAnalysis.R` is specifically for checking significant differences in correlations across conditions. `dpt_few-shot_originality.py` runs an LLM experiment to complete the creativity task described in the paper.
 
-The `data` folder contains human and LLM responses used to report these results, along with linguistic analysis using AI. Using this data, it is possible to reproduce our results without needing to make API calls, but the code also supports this option.
+The `data` folder contains human and LLM responses used to report these results, along with linguistic analysis using AI. Using this data, it is possible to reproduce our results without needing to make API calls, but the code also supports this option. The anonymized human data gathered for this study is in `cleaned_data_explanations_gold.csv`
 
 # Citation
 If you use this work, please cite us:
